@@ -32,14 +32,14 @@
   - `SelectExerciseActivity.java`: 운동 목록에서 루틴에 운동을 추가하는 화면
   - `ExerciseDetailActivity.java`: 특정 운동에 대한 상세정보를 보여주는 화면
   - `DBHelper.java`: SQLite DB helper class, 사용자/루틴/운동 데이터 관리 로직 포함
-  - `User.java`, `Routine.java`, `Exercise.java`, `RoutineExercise.java`: 데이터 모델 클래스들
+  - `User.java`, `Routine.java`, `Exercise.java`, `RoutineExercise.java`: data model class
   
 - `app/src/main/res/layout/`
   - `activity_login.xml`, `activity_register.xml`, `activity_main.xml`, `activity_routine_list.xml`,  
     `activity_create_routine.xml`, `activity_routine_detail.xml`, `activity_select_exercise.xml`, `activity_exercise_detail.xml`  
-    위 액티비티에 해당하는 레이아웃 파일들.
+    위 액티비티에 해당하는 layout file.
   
-- `AndroidManifest.xml`: 액티비티 등록 및 앱 권한 설정
+- `AndroidManifest.xml`: activity 등록 / app 권한설정 등
 
 ## 데이터 출처 및 수정
 

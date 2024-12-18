@@ -20,7 +20,7 @@
   - 운동 목록의 항목을 길게 눌러 루틴에서 해당 운동을 제거
   - 운동명을 클릭하여 운동 상세정보(에너지소비량, 유형) 확인
 
-## 파일 구조
+## 📂 프로젝트 구조
 
 - `app/src/main/java/kr/co/softcampus/firnessapp/`
   - `LoginActivity.java`: 로그인 화면 액티비티
@@ -31,7 +31,7 @@
   - `RoutineDetailActivity.java`: 특정 루틴에 대한 상세 화면(운동 목록 관리)
   - `SelectExerciseActivity.java`: 운동 목록에서 루틴에 운동을 추가하는 화면
   - `ExerciseDetailActivity.java`: 특정 운동에 대한 상세정보를 보여주는 화면
-  - `DBHelper.java`: SQLite DB 관리 헬퍼 클래스, 사용자/루틴/운동 데이터 관리 로직 포함
+  - `DBHelper.java`: SQLite DB helper class, 사용자/루틴/운동 데이터 관리 로직 포함
   - `User.java`, `Routine.java`, `Exercise.java`, `RoutineExercise.java`: 데이터 모델 클래스들
   
 - `app/src/main/res/layout/`

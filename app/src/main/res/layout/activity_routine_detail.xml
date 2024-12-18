@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 날짜 표시 텍스트 -->
+    <TextView
+        android:id="@+id/textRoutineDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="0000년 00월 00일 오늘의 운동루틴입니다." />
+
+    <!-- 루틴명 표시/수정용 EditText -->
+    <EditText
+        android:id="@+id/editRoutineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="루틴명" />
+
+    <!-- 운동 목록 표시 -->
+    <ListView
+        android:id="@+id/listRoutineExercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <!-- 운동명 클릭 상세정보 안내 문구 추가 -->
+    <TextView
+        android:id="@+id/textExerciseClickInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="운동명을 클릭하면 상세정보를 볼 수 있습니다."
+        android:textSize="14sp" />
+
+    <!-- 루틴명 수정하기 버튼 -->
+    <Button
+        android:id="@+id/btnUpdateRoutineName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="루틴명 수정하기" />
+
+    <!-- 루틴 삭제하기 버튼 -->
+    <Button
+        android:id="@+id/btnDeleteRoutine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="루틴 삭제하기" />
+
+    <!-- 운동 추가하기 버튼 -->
+    <Button
+        android:id="@+id/btnAddExercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="운동 추가하기" />
+</LinearLayout>

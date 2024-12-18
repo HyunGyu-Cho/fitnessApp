@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- 루틴 목록(ListView)을 먼저 보여줌 -->
+    <ListView
+        android:id="@+id/listUserRoutines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- 루틴 목록 아래로 버튼을 배치 -->
+    <Button
+        android:id="@+id/btnCreateRoutine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="새 루틴 생성하기"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="메인으로 돌아가기"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
